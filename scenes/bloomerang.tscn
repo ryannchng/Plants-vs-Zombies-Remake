@@ -1,5 +1,10 @@
-[gd_scene format=3 uid="uid://crtgvk56pmr5s"]
+[gd_scene load_steps=2 format=3 uid="uid://crtgvk56pmr5s"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yyssa"]
+animations = []
 
 [node name="Bloomerang" type="CharacterBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_yyssa")
+animation = &""

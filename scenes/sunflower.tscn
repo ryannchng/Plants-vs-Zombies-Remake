@@ -1,0 +1,503 @@
+[gd_scene load_steps=122 format=3 uid="uid://cuawxolf1whqd"]
+
+[ext_resource type="Texture2D" uid="uid://yn7fp70rr738" path="res://assets/Plants/PlantSunflower/idle/idle0001.png" id="1_c7cu1"]
+[ext_resource type="Texture2D" uid="uid://cd3frt0drdnoa" path="res://assets/Plants/PlantSunflower/idle/idle0002.png" id="2_0vjb6"]
+[ext_resource type="Texture2D" uid="uid://eb6rdgiuab33" path="res://assets/Plants/PlantSunflower/idle/idle0003.png" id="3_e0mk6"]
+[ext_resource type="Texture2D" uid="uid://crc8f3yp0vjfi" path="res://assets/Plants/PlantSunflower/idle/idle0004.png" id="4_oc0hl"]
+[ext_resource type="Texture2D" uid="uid://b8ykbhj6ywhxi" path="res://assets/Plants/PlantSunflower/idle/idle0005.png" id="5_wwlku"]
+[ext_resource type="Texture2D" uid="uid://qqxflfy4l7ur" path="res://assets/Plants/PlantSunflower/idle/idle0006.png" id="6_amkdn"]
+[ext_resource type="Texture2D" uid="uid://b226k06kxstjv" path="res://assets/Plants/PlantSunflower/idle/idle0007.png" id="7_47mdo"]
+[ext_resource type="Texture2D" uid="uid://wv22ucqh5sat" path="res://assets/Plants/PlantSunflower/idle/idle0008.png" id="8_ook3e"]
+[ext_resource type="Texture2D" uid="uid://dhcd2w1ve7ui7" path="res://assets/Plants/PlantSunflower/idle/idle0009.png" id="9_qhrle"]
+[ext_resource type="Texture2D" uid="uid://c2c42c8evrtc0" path="res://assets/Plants/PlantSunflower/idle/idle0010.png" id="10_dlmit"]
+[ext_resource type="Texture2D" uid="uid://biyhx5p3r64i5" path="res://assets/Plants/PlantSunflower/idle/idle0011.png" id="11_qy10n"]
+[ext_resource type="Texture2D" uid="uid://uklc66esh48f" path="res://assets/Plants/PlantSunflower/idle/idle0012.png" id="12_acdhe"]
+[ext_resource type="Texture2D" uid="uid://0sacsygees1v" path="res://assets/Plants/PlantSunflower/idle/idle0013.png" id="13_5awgd"]
+[ext_resource type="Texture2D" uid="uid://8msnjnlj2rgw" path="res://assets/Plants/PlantSunflower/idle/idle0014.png" id="14_v6kbh"]
+[ext_resource type="Texture2D" uid="uid://d0j6qwepgr2ib" path="res://assets/Plants/PlantSunflower/idle/idle0015.png" id="15_hbffh"]
+[ext_resource type="Texture2D" uid="uid://kubqqk2j6e1y" path="res://assets/Plants/PlantSunflower/idle/idle0016.png" id="16_obj11"]
+[ext_resource type="Texture2D" uid="uid://ctfni4gvi4qok" path="res://assets/Plants/PlantSunflower/idle/idle0017.png" id="17_nol1o"]
+[ext_resource type="Texture2D" uid="uid://dn8h8y757mhao" path="res://assets/Plants/PlantSunflower/idle/idle0018.png" id="18_bhodx"]
+[ext_resource type="Texture2D" uid="uid://d2pfenx3q2600" path="res://assets/Plants/PlantSunflower/idle/idle0019.png" id="19_2c4ph"]
+[ext_resource type="Texture2D" uid="uid://ch6ql8rmx8u1h" path="res://assets/Plants/PlantSunflower/idle/idle0020.png" id="20_mopib"]
+[ext_resource type="Texture2D" uid="uid://xo7bpnpiw43" path="res://assets/Plants/PlantSunflower/idle/idle0021.png" id="21_ywx8r"]
+[ext_resource type="Texture2D" uid="uid://coruua1ubl0jh" path="res://assets/Plants/PlantSunflower/idle/idle0022.png" id="22_uu02d"]
+[ext_resource type="Texture2D" uid="uid://c4uaobikndhwd" path="res://assets/Plants/PlantSunflower/idle/idle0023.png" id="23_4ula6"]
+[ext_resource type="Texture2D" uid="uid://b4mp20hss2ksc" path="res://assets/Plants/PlantSunflower/idle/idle0024.png" id="24_marxs"]
+[ext_resource type="Texture2D" uid="uid://dfrd8abbg0kx1" path="res://assets/Plants/PlantSunflower/idle/idle0025.png" id="25_emmve"]
+[ext_resource type="Texture2D" uid="uid://cikv7f62suy1l" path="res://assets/Plants/PlantSunflower/idle/idle0026.png" id="26_16kqa"]
+[ext_resource type="Texture2D" uid="uid://bvbiew3wfcf1n" path="res://assets/Plants/PlantSunflower/idle/idle0027.png" id="27_dly7n"]
+[ext_resource type="Texture2D" uid="uid://c1doxtch31iq0" path="res://assets/Plants/PlantSunflower/idle/idle0028.png" id="28_tco7j"]
+[ext_resource type="Texture2D" uid="uid://cvrdes521t3uv" path="res://assets/Plants/PlantSunflower/idle/idle0029.png" id="29_go5p7"]
+[ext_resource type="Texture2D" uid="uid://cq58g1rl3kbvx" path="res://assets/Plants/PlantSunflower/idle/idle0030.png" id="30_0twoc"]
+[ext_resource type="Texture2D" uid="uid://clugp644sqbm" path="res://assets/Plants/PlantSunflower/idle/idle0031.png" id="31_7fwvc"]
+[ext_resource type="Texture2D" uid="uid://cnvsvwrguukhd" path="res://assets/Plants/PlantSunflower/idle/idle0032.png" id="32_28p1h"]
+[ext_resource type="Texture2D" uid="uid://bq43sf4cmvwgt" path="res://assets/Plants/PlantSunflower/idle/idle0033.png" id="33_6qt44"]
+[ext_resource type="Texture2D" uid="uid://rjmcb7qdgahr" path="res://assets/Plants/PlantSunflower/idle/idle0034.png" id="34_yy03h"]
+[ext_resource type="Texture2D" uid="uid://cpkr45ujmiy2r" path="res://assets/Plants/PlantSunflower/idle/idle0035.png" id="35_6xepw"]
+[ext_resource type="Texture2D" uid="uid://biv82qrckg2bn" path="res://assets/Plants/PlantSunflower/idle/idle0036.png" id="36_8udll"]
+[ext_resource type="Texture2D" uid="uid://dlyonyjmnj0ij" path="res://assets/Plants/PlantSunflower/idle/idle0037.png" id="37_kpnl3"]
+[ext_resource type="Texture2D" uid="uid://c0s0nrkd44bk" path="res://assets/Plants/PlantSunflower/idle/idle0038.png" id="38_dsu4w"]
+[ext_resource type="Texture2D" uid="uid://dp2ieqbaf31w6" path="res://assets/Plants/PlantSunflower/idle/idle0039.png" id="39_sn1t1"]
+[ext_resource type="Texture2D" uid="uid://b2oywvsmapsoo" path="res://assets/Plants/PlantSunflower/idle/idle0040.png" id="40_ls3v0"]
+[ext_resource type="Texture2D" uid="uid://c0n1lnf3e1vyr" path="res://assets/Plants/PlantSunflower/idle/idle0041.png" id="41_ejxml"]
+[ext_resource type="Texture2D" uid="uid://dbwfs0hip7hft" path="res://assets/Plants/PlantSunflower/idle/idle0042.png" id="42_dgmdb"]
+[ext_resource type="Texture2D" uid="uid://ds8qsyt54qnno" path="res://assets/Plants/PlantSunflower/idle/idle0043.png" id="43_vuu3h"]
+[ext_resource type="Texture2D" uid="uid://37bsp6x5rjv" path="res://assets/Plants/PlantSunflower/idle/idle0044.png" id="44_a2y2h"]
+[ext_resource type="Texture2D" uid="uid://q23tbgr6yw0f" path="res://assets/Plants/PlantSunflower/idle/idle0045.png" id="45_x34p8"]
+[ext_resource type="Texture2D" uid="uid://e8xsmtuofka7" path="res://assets/Plants/PlantSunflower/idle/idle0046.png" id="46_n2blv"]
+[ext_resource type="Texture2D" uid="uid://c6b36konprees" path="res://assets/Plants/PlantSunflower/idle/idle0047.png" id="47_yibid"]
+[ext_resource type="Texture2D" uid="uid://ddssyc82eip8u" path="res://assets/Plants/PlantSunflower/idle/idle0048.png" id="48_jbb11"]
+[ext_resource type="Texture2D" uid="uid://dpf08gxqfpx35" path="res://assets/Plants/PlantSunflower/idle/idle0049.png" id="49_rrk3n"]
+[ext_resource type="Texture2D" uid="uid://begtlq8iaq0it" path="res://assets/Plants/PlantSunflower/idle/idle0050.png" id="50_61aky"]
+[ext_resource type="Texture2D" uid="uid://qyjebo7e5vfw" path="res://assets/Plants/PlantSunflower/idle/idle0051.png" id="51_avnq4"]
+[ext_resource type="Texture2D" uid="uid://bvpc2ruslg41d" path="res://assets/Plants/PlantSunflower/idle/idle0052.png" id="52_4j1qj"]
+[ext_resource type="Texture2D" uid="uid://dwfmc36rr0mfa" path="res://assets/Plants/PlantSunflower/idle/idle0053.png" id="53_yrov3"]
+[ext_resource type="Texture2D" uid="uid://b76p8s6wi2od2" path="res://assets/Plants/PlantSunflower/idle/idle0054.png" id="54_fefgc"]
+[ext_resource type="Texture2D" uid="uid://cxx4ymp4q0cjp" path="res://assets/Plants/PlantSunflower/idle/idle0055.png" id="55_vpd00"]
+[ext_resource type="Texture2D" uid="uid://byy4fy5fgl6a2" path="res://assets/Plants/PlantSunflower/idle/idle0056.png" id="56_vc7k2"]
+[ext_resource type="Texture2D" uid="uid://dlce6sa2w0k7f" path="res://assets/Plants/PlantSunflower/idle/idle0057.png" id="57_k3gkg"]
+[ext_resource type="Texture2D" uid="uid://ba27274dnc076" path="res://assets/Plants/PlantSunflower/idle/idle0058.png" id="58_mgbkd"]
+[ext_resource type="Texture2D" uid="uid://bkeakwrv0s820" path="res://assets/Plants/PlantSunflower/idle/idle0059.png" id="59_ubba7"]
+[ext_resource type="Texture2D" uid="uid://b1e8ev841m88e" path="res://assets/Plants/PlantSunflower/idle/idle0060.png" id="60_85dt7"]
+[ext_resource type="Texture2D" uid="uid://b7n3xdjdey5nm" path="res://assets/Plants/PlantSunflower/produce/produce0001.png" id="61_u5mog"]
+[ext_resource type="Texture2D" uid="uid://wf8je1g08k61" path="res://assets/Plants/PlantSunflower/produce/produce0002.png" id="62_s6uy3"]
+[ext_resource type="Texture2D" uid="uid://ldu0wshv8tsp" path="res://assets/Plants/PlantSunflower/produce/produce0003.png" id="63_ryk0b"]
+[ext_resource type="Texture2D" uid="uid://blbprbb3f3ql0" path="res://assets/Plants/PlantSunflower/produce/produce0004.png" id="64_1f4y1"]
+[ext_resource type="Texture2D" uid="uid://ckiduxxnntjjv" path="res://assets/Plants/PlantSunflower/produce/produce0005.png" id="65_t20n4"]
+[ext_resource type="Texture2D" uid="uid://damhu6al7xpfx" path="res://assets/Plants/PlantSunflower/produce/produce0006.png" id="66_lj0ci"]
+[ext_resource type="Texture2D" uid="uid://dm6e8mymx3qde" path="res://assets/Plants/PlantSunflower/produce/produce0007.png" id="67_whugk"]
+[ext_resource type="Texture2D" uid="uid://boyryqm7nwuj8" path="res://assets/Plants/PlantSunflower/produce/produce0008.png" id="68_gjpih"]
+[ext_resource type="Texture2D" uid="uid://cwe3bohfu0qtg" path="res://assets/Plants/PlantSunflower/produce/produce0009.png" id="69_lx3dl"]
+[ext_resource type="Texture2D" uid="uid://gq500c08vmm6" path="res://assets/Plants/PlantSunflower/produce/produce0010.png" id="70_c3bga"]
+[ext_resource type="Texture2D" uid="uid://dm2vqmshwh4at" path="res://assets/Plants/PlantSunflower/produce/produce0011.png" id="71_0jg6x"]
+[ext_resource type="Texture2D" uid="uid://b8a5xm7es5hkw" path="res://assets/Plants/PlantSunflower/produce/produce0012.png" id="72_xpxvf"]
+[ext_resource type="Texture2D" uid="uid://csbls222yn7vf" path="res://assets/Plants/PlantSunflower/produce/produce0013.png" id="73_s5cm8"]
+[ext_resource type="Texture2D" uid="uid://d0g5xep13dxu7" path="res://assets/Plants/PlantSunflower/produce/produce0014.png" id="74_i5d56"]
+[ext_resource type="Texture2D" uid="uid://c2covvxdqph7" path="res://assets/Plants/PlantSunflower/produce/produce0015.png" id="75_omkyf"]
+[ext_resource type="Texture2D" uid="uid://dig81bd22ars" path="res://assets/Plants/PlantSunflower/produce/produce0016.png" id="76_a2xpo"]
+[ext_resource type="Texture2D" uid="uid://2r27b0r6exjq" path="res://assets/Plants/PlantSunflower/produce/produce0017.png" id="77_0ajiw"]
+[ext_resource type="Texture2D" uid="uid://be3tjgbwsg4n2" path="res://assets/Plants/PlantSunflower/produce/produce0018.png" id="78_3vp4j"]
+[ext_resource type="Texture2D" uid="uid://1dblh6hjmude" path="res://assets/Plants/PlantSunflower/produce/produce0019.png" id="79_6fw7x"]
+[ext_resource type="Texture2D" uid="uid://cdwkoennrpljg" path="res://assets/Plants/PlantSunflower/produce/produce0020.png" id="80_mbw4f"]
+[ext_resource type="Texture2D" uid="uid://djwdllunoi0l" path="res://assets/Plants/PlantSunflower/produce/produce0021.png" id="81_jm065"]
+[ext_resource type="Texture2D" uid="uid://cn6unsm8p5nsg" path="res://assets/Plants/PlantSunflower/produce/produce0022.png" id="82_6cqse"]
+[ext_resource type="Texture2D" uid="uid://ctjfqt0d4le81" path="res://assets/Plants/PlantSunflower/produce/produce0023.png" id="83_8pms3"]
+[ext_resource type="Texture2D" uid="uid://ctevbqsiljed" path="res://assets/Plants/PlantSunflower/produce/produce0024.png" id="84_115gk"]
+[ext_resource type="Texture2D" uid="uid://bydbhv404ay1g" path="res://assets/Plants/PlantSunflower/produce/produce0025.png" id="85_1pigj"]
+[ext_resource type="Texture2D" uid="uid://06mfn3lluq3a" path="res://assets/Plants/PlantSunflower/produce/produce0026.png" id="86_uyvxd"]
+[ext_resource type="Texture2D" uid="uid://bt17ndaqs3nk0" path="res://assets/Plants/PlantSunflower/produce/produce0027.png" id="87_p3a4x"]
+[ext_resource type="Texture2D" uid="uid://dwwrkorfjeh6" path="res://assets/Plants/PlantSunflower/produce/produce0028.png" id="88_v7el0"]
+[ext_resource type="Texture2D" uid="uid://dge2mf5sourvh" path="res://assets/Plants/PlantSunflower/produce/produce0029.png" id="89_f55q8"]
+[ext_resource type="Texture2D" uid="uid://beh4egkr1upym" path="res://assets/Plants/PlantSunflower/produce/produce0030.png" id="90_0dwg1"]
+[ext_resource type="Texture2D" uid="uid://cbgoy2c0hoaw3" path="res://assets/Plants/PlantSunflower/produce/produce0031.png" id="91_kig8u"]
+[ext_resource type="Texture2D" uid="uid://dnt0psqp7tqkt" path="res://assets/Plants/PlantSunflower/produce/produce0032.png" id="92_sxqp4"]
+[ext_resource type="Texture2D" uid="uid://d3kkgows8hdbi" path="res://assets/Plants/PlantSunflower/produce/produce0033.png" id="93_7xcjb"]
+[ext_resource type="Texture2D" uid="uid://ybrw7x4k7ixp" path="res://assets/Plants/PlantSunflower/produce/produce0034.png" id="94_txfnx"]
+[ext_resource type="Texture2D" uid="uid://c6tkk3jakuk28" path="res://assets/Plants/PlantSunflower/produce/produce0035.png" id="95_1jyl2"]
+[ext_resource type="Texture2D" uid="uid://c7yse2nl50auj" path="res://assets/Plants/PlantSunflower/produce/produce0036.png" id="96_s7htk"]
+[ext_resource type="Texture2D" uid="uid://bule33pshegx2" path="res://assets/Plants/PlantSunflower/produce/produce0037.png" id="97_5s0hm"]
+[ext_resource type="Texture2D" uid="uid://bi5xy7scwfbft" path="res://assets/Plants/PlantSunflower/produce/produce0038.png" id="98_2q1fh"]
+[ext_resource type="Texture2D" uid="uid://c62qudutpttty" path="res://assets/Plants/PlantSunflower/produce/produce0039.png" id="99_smvtg"]
+[ext_resource type="Texture2D" uid="uid://irspxslpqlev" path="res://assets/Plants/PlantSunflower/produce/produce0040.png" id="100_0jx0p"]
+[ext_resource type="Texture2D" uid="uid://bky86i4n1np55" path="res://assets/Plants/PlantSunflower/produce/produce0041.png" id="101_vg2xd"]
+[ext_resource type="Texture2D" uid="uid://bgvssqbws2sqq" path="res://assets/Plants/PlantSunflower/produce/produce0042.png" id="102_8jlu4"]
+[ext_resource type="Texture2D" uid="uid://dxafwiaqtkmxj" path="res://assets/Plants/PlantSunflower/produce/produce0043.png" id="103_njtas"]
+[ext_resource type="Texture2D" uid="uid://c66u2advtfewu" path="res://assets/Plants/PlantSunflower/produce/produce0044.png" id="104_1wqup"]
+[ext_resource type="Texture2D" uid="uid://bftv40kgh5vt8" path="res://assets/Plants/PlantSunflower/produce/produce0045.png" id="105_6iwaq"]
+[ext_resource type="Texture2D" uid="uid://bgw7s8dld6rfh" path="res://assets/Plants/PlantSunflower/produce/produce0046.png" id="106_uqyxx"]
+[ext_resource type="Texture2D" uid="uid://c5d2hh8binpon" path="res://assets/Plants/PlantSunflower/produce/produce0047.png" id="107_0uebx"]
+[ext_resource type="Texture2D" uid="uid://cv76op6wvrn5x" path="res://assets/Plants/PlantSunflower/produce/produce0048.png" id="108_ycxhq"]
+[ext_resource type="Texture2D" uid="uid://dyqv2n2djxy7l" path="res://assets/Plants/PlantSunflower/produce/produce0049.png" id="109_5aamw"]
+[ext_resource type="Texture2D" uid="uid://dpsprpcvmj2b2" path="res://assets/Plants/PlantSunflower/produce/produce0050.png" id="110_xiejr"]
+[ext_resource type="Texture2D" uid="uid://c8rgl8r8bgkr7" path="res://assets/Plants/PlantSunflower/produce/produce0051.png" id="111_63qha"]
+[ext_resource type="Texture2D" uid="uid://d2sowido1ivq1" path="res://assets/Plants/PlantSunflower/produce/produce0052.png" id="112_ku4ss"]
+[ext_resource type="Texture2D" uid="uid://cdc71d1obdac1" path="res://assets/Plants/PlantSunflower/produce/produce0053.png" id="113_m2ito"]
+[ext_resource type="Texture2D" uid="uid://cb5mq5jgj5rgc" path="res://assets/Plants/PlantSunflower/produce/produce0054.png" id="114_4nlba"]
+[ext_resource type="Texture2D" uid="uid://brmbmwfejf85c" path="res://assets/Plants/PlantSunflower/produce/produce0055.png" id="115_3pt0h"]
+[ext_resource type="Texture2D" uid="uid://cdh4onvex1406" path="res://assets/Plants/PlantSunflower/produce/produce0056.png" id="116_q8yu1"]
+[ext_resource type="Texture2D" uid="uid://b3f8nlvinu6ax" path="res://assets/Plants/PlantSunflower/produce/produce0057.png" id="117_j62m6"]
+[ext_resource type="Texture2D" uid="uid://blxcsoagvrb18" path="res://assets/Plants/PlantSunflower/produce/produce0058.png" id="118_iwycv"]
+[ext_resource type="Texture2D" uid="uid://cy1ub7th0yqv0" path="res://assets/Plants/PlantSunflower/produce/produce0059.png" id="119_2abrw"]
+[ext_resource type="Texture2D" uid="uid://nlalcb37yno5" path="res://assets/Plants/PlantSunflower/produce/produce0060.png" id="120_ios1o"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fmku1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c7cu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0vjb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_e0mk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_oc0hl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wwlku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_amkdn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_47mdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ook3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qhrle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_dlmit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qy10n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_acdhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_5awgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_v6kbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_hbffh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_obj11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_nol1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bhodx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_2c4ph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_mopib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ywx8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_uu02d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_4ula6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_marxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_emmve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_16kqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_dly7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tco7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_go5p7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_0twoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_7fwvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_28p1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_6qt44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_yy03h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_6xepw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_8udll")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_kpnl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_dsu4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_sn1t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ls3v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ejxml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_dgmdb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_vuu3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_a2y2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_x34p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_n2blv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_yibid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_jbb11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_rrk3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_61aky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_avnq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_4j1qj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_yrov3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_fefgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_vpd00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_vc7k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_k3gkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_mgbkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ubba7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_85dt7")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("61_u5mog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_s6uy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_ryk0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_1f4y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_t20n4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_lj0ci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_whugk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_gjpih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_lx3dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_c3bga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_0jg6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_xpxvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_s5cm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_i5d56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_omkyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_a2xpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_0ajiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_3vp4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_6fw7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_mbw4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_jm065")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_6cqse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_8pms3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_115gk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_1pigj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_uyvxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_p3a4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_v7el0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_f55q8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_0dwg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_kig8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_sxqp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_7xcjb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_txfnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_1jyl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_s7htk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_5s0hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_2q1fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_smvtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_0jx0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_vg2xd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_8jlu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_njtas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_1wqup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_6iwaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_uqyxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_0uebx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_ycxhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_5aamw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_xiejr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_63qha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_ku4ss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_m2ito")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_4nlba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_3pt0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_q8yu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_j62m6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_iwycv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_2abrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_ios1o")
+}],
+"loop": true,
+"name": &"Produce",
+"speed": 30.0
+}]
+
+[node name="Sunflower" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_fmku1")
+animation = &"Produce"
+frame = 43
+frame_progress = 0.536206

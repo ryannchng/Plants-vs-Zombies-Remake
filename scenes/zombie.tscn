@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://kgollrtp0p7a"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c38vb"]
+animations = []
+
+[node name="Zombie" type="CharacterBody2D"]
+
+[node name="Basic Zombie" type="CharacterBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Basic Zombie"]
+position = Vector2(0, -1)
+sprite_frames = SubResource("SpriteFrames_c38vb")
+animation = &""
