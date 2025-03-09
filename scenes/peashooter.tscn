@@ -1,164 +1,179 @@
 [gd_scene load_steps=65 format=3 uid="uid://bi8lsvvcwv2dk"]
 
-[ext_resource type="Script" path="res://peashooter.gd" id="1_8apha"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0001.png" id="1_k5txf"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0002.png" id="2_3waij"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0003.png" id="3_agmb2"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0004.png" id="4_rklc0"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0005.png" id="5_jaive"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0006.png" id="6_lo6wf"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0007.png" id="7_gddnc"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0008.png" id="8_uhd7j"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0009.png" id="9_v14ob"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0010.png" id="10_ugjtj"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0011.png" id="11_qoj3x"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0012.png" id="12_0g1qy"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0013.png" id="13_ytoom"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0014.png" id="14_e7nw4"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0015.png" id="15_uyula"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0016.png" id="16_fl0dc"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0017.png" id="17_ifvtc"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0018.png" id="18_piib8"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0019.png" id="19_4bgbo"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0020.png" id="20_pb2sx"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0021.png" id="21_gnmuu"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0022.png" id="22_fihje"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0023.png" id="23_f0jlx"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0024.png" id="24_prmyp"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0025.png" id="25_jfnw3"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0026.png" id="26_006by"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0027.png" id="27_5kyra"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0028.png" id="28_212a1"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0029.png" id="29_eg07u"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0030.png" id="30_j6wii"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/attack/attack0031.png" id="31_qgokq"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0001.png" id="32_2fort"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0002.png" id="33_wduue"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0003.png" id="34_b3pqy"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0004.png" id="35_f7ye6"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0005.png" id="36_daoxf"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0006.png" id="37_a16ry"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0007.png" id="38_bpakm"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0008.png" id="39_0f5vs"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0009.png" id="40_rs1m1"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0010.png" id="41_nddw6"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0011.png" id="42_x8vw0"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0012.png" id="43_3mjkb"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0013.png" id="44_x7as2"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0014.png" id="45_mllsl"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0015.png" id="46_bt033"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0016.png" id="47_utdxr"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0017.png" id="48_82d31"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0018.png" id="49_l43by"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0019.png" id="50_180ux"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0020.png" id="51_7vfqa"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0021.png" id="52_dx11a"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0022.png" id="53_lrebn"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0023.png" id="54_3wq04"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0024.png" id="55_p67lr"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0025.png" id="56_eu42v"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0026.png" id="57_pl5su"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0027.png" id="58_3ik73"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0028.png" id="59_ba3bd"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0029.png" id="60_6j81s"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0030.png" id="61_4gite"]
-[ext_resource type="Texture2D" path="res://assets/Plants/peashooter/idle/idle0031.png" id="62_02exj"]
+[ext_resource type="Texture2D" uid="uid://cbp0bjy1xq16l" path="res://assets/Plants/PlantPeashooter/attack/attack0001.png" id="1_q14ui"]
+[ext_resource type="Texture2D" uid="uid://7vxtc8bxn3tk" path="res://assets/Plants/PlantPeashooter/attack/attack0002.png" id="2_gapcm"]
+[ext_resource type="Texture2D" uid="uid://d4f4prrpfmq0i" path="res://assets/Plants/PlantPeashooter/attack/attack0003.png" id="3_ugffw"]
+[ext_resource type="Texture2D" uid="uid://dywu0bnd2flhr" path="res://assets/Plants/PlantPeashooter/attack/attack0004.png" id="4_xomtn"]
+[ext_resource type="Texture2D" uid="uid://dsam5yqurwilj" path="res://assets/Plants/PlantPeashooter/attack/attack0005.png" id="5_0ibra"]
+[ext_resource type="Texture2D" uid="uid://ckdg64h46mqjt" path="res://assets/Plants/PlantPeashooter/attack/attack0006.png" id="6_uq0te"]
+[ext_resource type="Texture2D" uid="uid://cs8ayvbfyav3t" path="res://assets/Plants/PlantPeashooter/attack/attack0007.png" id="7_ea1rl"]
+[ext_resource type="Texture2D" uid="uid://cdew28g04t3p7" path="res://assets/Plants/PlantPeashooter/attack/attack0008.png" id="8_gpiij"]
+[ext_resource type="Texture2D" uid="uid://qj0jjogyvjuf" path="res://assets/Plants/PlantPeashooter/attack/attack0009.png" id="9_batn3"]
+[ext_resource type="Texture2D" uid="uid://cfk3f8s0lcwuf" path="res://assets/Plants/PlantPeashooter/attack/attack0010.png" id="10_2ryot"]
+[ext_resource type="Texture2D" uid="uid://2w587k4kcbdv" path="res://assets/Plants/PlantPeashooter/attack/attack0011.png" id="11_mh4nd"]
+[ext_resource type="Texture2D" uid="uid://d4nbggr0p2b5c" path="res://assets/Plants/PlantPeashooter/attack/attack0012.png" id="12_tshyt"]
+[ext_resource type="Texture2D" uid="uid://cgj28ihp1p0an" path="res://assets/Plants/PlantPeashooter/attack/attack0013.png" id="13_i6p62"]
+[ext_resource type="Texture2D" uid="uid://1sok16kk8ijk" path="res://assets/Plants/PlantPeashooter/attack/attack0014.png" id="14_k6325"]
+[ext_resource type="Texture2D" uid="uid://qlirhkxb7tsa" path="res://assets/Plants/PlantPeashooter/attack/attack0015.png" id="15_bh5sp"]
+[ext_resource type="Texture2D" uid="uid://btj0fuhqmjks8" path="res://assets/Plants/PlantPeashooter/attack/attack0016.png" id="16_eunmq"]
+[ext_resource type="Texture2D" uid="uid://kfq2ncgk3n7y" path="res://assets/Plants/PlantPeashooter/attack/attack0017.png" id="17_g1t0b"]
+[ext_resource type="Texture2D" uid="uid://6d7glqlulw0x" path="res://assets/Plants/PlantPeashooter/attack/attack0018.png" id="18_hi4yh"]
+[ext_resource type="Texture2D" uid="uid://bsaregkuj60ty" path="res://assets/Plants/PlantPeashooter/attack/attack0019.png" id="19_cadc0"]
+[ext_resource type="Texture2D" uid="uid://dt36e1ytbm0ad" path="res://assets/Plants/PlantPeashooter/attack/attack0020.png" id="20_1y2af"]
+[ext_resource type="Texture2D" uid="uid://b3ypxfg8k74m7" path="res://assets/Plants/PlantPeashooter/attack/attack0021.png" id="21_l10jb"]
+[ext_resource type="Texture2D" uid="uid://cdyxcpph25ii7" path="res://assets/Plants/PlantPeashooter/attack/attack0022.png" id="22_75yaf"]
+[ext_resource type="Texture2D" uid="uid://bvvrkxsgf23qu" path="res://assets/Plants/PlantPeashooter/attack/attack0023.png" id="23_srl2e"]
+[ext_resource type="Texture2D" uid="uid://dqmocgd4l0smp" path="res://assets/Plants/PlantPeashooter/attack/attack0024.png" id="24_5yk5g"]
+[ext_resource type="Texture2D" uid="uid://c6ilytwmqy5ql" path="res://assets/Plants/PlantPeashooter/attack/attack0025.png" id="25_evxa7"]
+[ext_resource type="Texture2D" uid="uid://diira1lef7dhy" path="res://assets/Plants/PlantPeashooter/attack/attack0026.png" id="26_renv1"]
+[ext_resource type="Texture2D" uid="uid://rpctouohx4dm" path="res://assets/Plants/PlantPeashooter/attack/attack0027.png" id="27_vpw7f"]
+[ext_resource type="Texture2D" uid="uid://b31tumliuywgp" path="res://assets/Plants/PlantPeashooter/attack/attack0028.png" id="28_sscwu"]
+[ext_resource type="Texture2D" uid="uid://dqp5ek8qixkty" path="res://assets/Plants/PlantPeashooter/attack/attack0029.png" id="29_1msvg"]
+[ext_resource type="Texture2D" uid="uid://dhgbxqjtl47mr" path="res://assets/Plants/PlantPeashooter/attack/attack0030.png" id="30_2ua56"]
+[ext_resource type="Texture2D" uid="uid://dgbo24ampyui8" path="res://assets/Plants/PlantPeashooter/attack/attack0031.png" id="31_bf7wr"]
+[ext_resource type="Texture2D" uid="uid://b10fpqp5nrvwd" path="res://assets/Plants/PlantPeashooter/idle/idle0001.png" id="32_suhyp"]
+[ext_resource type="Texture2D" uid="uid://csvdkaf23vq04" path="res://assets/Plants/PlantPeashooter/idle/idle0002.png" id="33_8dejg"]
+[ext_resource type="Texture2D" uid="uid://dfdfq5bwuaeqa" path="res://assets/Plants/PlantPeashooter/idle/idle0003.png" id="34_dnoi0"]
+[ext_resource type="Texture2D" uid="uid://f0hve6qbyc1a" path="res://assets/Plants/PlantPeashooter/idle/idle0004.png" id="35_akb33"]
+[ext_resource type="Texture2D" uid="uid://ciypw82kpjila" path="res://assets/Plants/PlantPeashooter/idle/idle0005.png" id="36_20ndj"]
+[ext_resource type="Texture2D" uid="uid://crirek1o3hrmn" path="res://assets/Plants/PlantPeashooter/idle/idle0006.png" id="37_mfsfq"]
+[ext_resource type="Texture2D" uid="uid://81wfenlfnvjg" path="res://assets/Plants/PlantPeashooter/idle/idle0007.png" id="38_a8dkw"]
+[ext_resource type="Texture2D" uid="uid://ce5646sr7sti2" path="res://assets/Plants/PlantPeashooter/idle/idle0008.png" id="39_thjlb"]
+[ext_resource type="Texture2D" uid="uid://n0vqo164vjwd" path="res://assets/Plants/PlantPeashooter/idle/idle0009.png" id="40_gtljw"]
+[ext_resource type="Texture2D" uid="uid://baxc2m3st5y2b" path="res://assets/Plants/PlantPeashooter/idle/idle0010.png" id="41_4vjwq"]
+[ext_resource type="Texture2D" uid="uid://bioj2q13y06pq" path="res://assets/Plants/PlantPeashooter/idle/idle0011.png" id="42_cpdy8"]
+[ext_resource type="Texture2D" uid="uid://b6jg62lyg8rqi" path="res://assets/Plants/PlantPeashooter/idle/idle0012.png" id="43_inrab"]
+[ext_resource type="Texture2D" uid="uid://datvide0xqs3p" path="res://assets/Plants/PlantPeashooter/idle/idle0013.png" id="44_cuhpi"]
+[ext_resource type="Texture2D" uid="uid://cwv5230h3ar6d" path="res://assets/Plants/PlantPeashooter/idle/idle0014.png" id="45_i6mra"]
+[ext_resource type="Texture2D" uid="uid://bx2xv24gijv5y" path="res://assets/Plants/PlantPeashooter/idle/idle0015.png" id="46_fj8s7"]
+[ext_resource type="Texture2D" uid="uid://dwhlql1yohvr2" path="res://assets/Plants/PlantPeashooter/idle/idle0016.png" id="47_t5baa"]
+[ext_resource type="Texture2D" uid="uid://b13sqsqrsv56b" path="res://assets/Plants/PlantPeashooter/idle/idle0017.png" id="48_p6m1o"]
+[ext_resource type="Texture2D" uid="uid://c6ax0o0bs6yrm" path="res://assets/Plants/PlantPeashooter/idle/idle0018.png" id="49_1urod"]
+[ext_resource type="Texture2D" uid="uid://m43w510n08ia" path="res://assets/Plants/PlantPeashooter/idle/idle0019.png" id="50_2dwct"]
+[ext_resource type="Texture2D" uid="uid://h6rhelx7a1r5" path="res://assets/Plants/PlantPeashooter/idle/idle0020.png" id="51_dxgi1"]
+[ext_resource type="Texture2D" uid="uid://co5vowxde3pk8" path="res://assets/Plants/PlantPeashooter/idle/idle0021.png" id="52_41hxc"]
+[ext_resource type="Texture2D" uid="uid://crvk8tr80jgpu" path="res://assets/Plants/PlantPeashooter/idle/idle0022.png" id="53_uwk0w"]
+[ext_resource type="Texture2D" uid="uid://bchibt3kt4krd" path="res://assets/Plants/PlantPeashooter/idle/idle0023.png" id="54_n2ysa"]
+[ext_resource type="Texture2D" uid="uid://dvrqmjymoovjx" path="res://assets/Plants/PlantPeashooter/idle/idle0024.png" id="55_a14io"]
+[ext_resource type="Texture2D" uid="uid://eoypv007c37b" path="res://assets/Plants/PlantPeashooter/idle/idle0025.png" id="56_rx71h"]
+[ext_resource type="Texture2D" uid="uid://de2pckycbtg6n" path="res://assets/Plants/PlantPeashooter/idle/idle0026.png" id="57_qw1jm"]
+[ext_resource type="Texture2D" uid="uid://bjk8gayitafcm" path="res://assets/Plants/PlantPeashooter/idle/idle0027.png" id="58_auk5f"]
+[ext_resource type="Texture2D" uid="uid://cqgt73ciicdhv" path="res://assets/Plants/PlantPeashooter/idle/idle0028.png" id="59_5nbch"]
+[ext_resource type="Texture2D" uid="uid://dyw134f1ybudo" path="res://assets/Plants/PlantPeashooter/idle/idle0029.png" id="60_cs1qb"]
+[ext_resource type="Texture2D" uid="uid://dn5l383ynkdfs" path="res://assets/Plants/PlantPeashooter/idle/idle0030.png" id="61_7v6xm"]
+[ext_resource type="Texture2D" uid="uid://brrfunxv615rg" path="res://assets/Plants/PlantPeashooter/idle/idle0031.png" id="62_nlepu"]
+
+[sub_resource type="GDScript" id="GDScript_inlds"]
+script/source = "extends Node2D
+
+@export var pea_scene: PackedScene
+
+@onready var sprite = $Sprite
+@onready var shooting_timer = $ShootingTimer
+@onready var muzzle = $Muzzle
+
+func _ready():
+	pass
+
+func shoot():
+	pass
+"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_o4qca"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_k5txf")
+"texture": ExtResource("1_q14ui")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_3waij")
+"texture": ExtResource("2_gapcm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_agmb2")
+"texture": ExtResource("3_ugffw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_rklc0")
+"texture": ExtResource("4_xomtn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_jaive")
+"texture": ExtResource("5_0ibra")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_lo6wf")
+"texture": ExtResource("6_uq0te")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_gddnc")
+"texture": ExtResource("7_ea1rl")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_uhd7j")
+"texture": ExtResource("8_gpiij")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_v14ob")
+"texture": ExtResource("9_batn3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_ugjtj")
+"texture": ExtResource("10_2ryot")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_qoj3x")
+"texture": ExtResource("11_mh4nd")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_0g1qy")
+"texture": ExtResource("12_tshyt")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_ytoom")
+"texture": ExtResource("13_i6p62")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_e7nw4")
+"texture": ExtResource("14_k6325")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_uyula")
+"texture": ExtResource("15_bh5sp")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_fl0dc")
+"texture": ExtResource("16_eunmq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_ifvtc")
+"texture": ExtResource("17_g1t0b")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_piib8")
+"texture": ExtResource("18_hi4yh")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_4bgbo")
+"texture": ExtResource("19_cadc0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_pb2sx")
+"texture": ExtResource("20_1y2af")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_gnmuu")
+"texture": ExtResource("21_l10jb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_fihje")
+"texture": ExtResource("22_75yaf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_f0jlx")
+"texture": ExtResource("23_srl2e")
 }, {
 "duration": 1.0,
-"texture": ExtResource("24_prmyp")
+"texture": ExtResource("24_5yk5g")
 }, {
 "duration": 1.0,
-"texture": ExtResource("25_jfnw3")
+"texture": ExtResource("25_evxa7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("26_006by")
+"texture": ExtResource("26_renv1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("27_5kyra")
+"texture": ExtResource("27_vpw7f")
 }, {
 "duration": 1.0,
-"texture": ExtResource("28_212a1")
+"texture": ExtResource("28_sscwu")
 }, {
 "duration": 1.0,
-"texture": ExtResource("29_eg07u")
+"texture": ExtResource("29_1msvg")
 }, {
 "duration": 1.0,
-"texture": ExtResource("30_j6wii")
+"texture": ExtResource("30_2ua56")
 }, {
 "duration": 1.0,
-"texture": ExtResource("31_qgokq")
+"texture": ExtResource("31_bf7wr")
 }],
 "loop": true,
 "name": &"Attack",
@@ -166,97 +181,97 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("32_2fort")
+"texture": ExtResource("32_suhyp")
 }, {
 "duration": 1.0,
-"texture": ExtResource("33_wduue")
+"texture": ExtResource("33_8dejg")
 }, {
 "duration": 1.0,
-"texture": ExtResource("34_b3pqy")
+"texture": ExtResource("34_dnoi0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("35_f7ye6")
+"texture": ExtResource("35_akb33")
 }, {
 "duration": 1.0,
-"texture": ExtResource("36_daoxf")
+"texture": ExtResource("36_20ndj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("37_a16ry")
+"texture": ExtResource("37_mfsfq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("38_bpakm")
+"texture": ExtResource("38_a8dkw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("39_0f5vs")
+"texture": ExtResource("39_thjlb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("40_rs1m1")
+"texture": ExtResource("40_gtljw")
 }, {
 "duration": 1.0,
-"texture": ExtResource("41_nddw6")
+"texture": ExtResource("41_4vjwq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("42_x8vw0")
+"texture": ExtResource("42_cpdy8")
 }, {
 "duration": 1.0,
-"texture": ExtResource("43_3mjkb")
+"texture": ExtResource("43_inrab")
 }, {
 "duration": 1.0,
-"texture": ExtResource("44_x7as2")
+"texture": ExtResource("44_cuhpi")
 }, {
 "duration": 1.0,
-"texture": ExtResource("45_mllsl")
+"texture": ExtResource("45_i6mra")
 }, {
 "duration": 1.0,
-"texture": ExtResource("46_bt033")
+"texture": ExtResource("46_fj8s7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("47_utdxr")
+"texture": ExtResource("47_t5baa")
 }, {
 "duration": 1.0,
-"texture": ExtResource("48_82d31")
+"texture": ExtResource("48_p6m1o")
 }, {
 "duration": 1.0,
-"texture": ExtResource("49_l43by")
+"texture": ExtResource("49_1urod")
 }, {
 "duration": 1.0,
-"texture": ExtResource("50_180ux")
+"texture": ExtResource("50_2dwct")
 }, {
 "duration": 1.0,
-"texture": ExtResource("51_7vfqa")
+"texture": ExtResource("51_dxgi1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("52_dx11a")
+"texture": ExtResource("52_41hxc")
 }, {
 "duration": 1.0,
-"texture": ExtResource("53_lrebn")
+"texture": ExtResource("53_uwk0w")
 }, {
 "duration": 1.0,
-"texture": ExtResource("54_3wq04")
+"texture": ExtResource("54_n2ysa")
 }, {
 "duration": 1.0,
-"texture": ExtResource("55_p67lr")
+"texture": ExtResource("55_a14io")
 }, {
 "duration": 1.0,
-"texture": ExtResource("56_eu42v")
+"texture": ExtResource("56_rx71h")
 }, {
 "duration": 1.0,
-"texture": ExtResource("57_pl5su")
+"texture": ExtResource("57_qw1jm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("58_3ik73")
+"texture": ExtResource("58_auk5f")
 }, {
 "duration": 1.0,
-"texture": ExtResource("59_ba3bd")
+"texture": ExtResource("59_5nbch")
 }, {
 "duration": 1.0,
-"texture": ExtResource("60_6j81s")
+"texture": ExtResource("60_cs1qb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("61_4gite")
+"texture": ExtResource("61_7v6xm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("62_02exj")
+"texture": ExtResource("62_nlepu")
 }],
 "loop": true,
 "name": &"Idle",
@@ -264,14 +279,12 @@ animations = [{
 }]
 
 [node name="Peashooter" type="Node2D"]
-script = ExtResource("1_8apha")
+script = SubResource("GDScript_inlds")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-241, 8)
 sprite_frames = SubResource("SpriteFrames_o4qca")
 animation = &"Attack"
-frame = 30
-frame_progress = 0.418408
 
 [node name="ShootingTimer" type="Timer" parent="."]
 
