@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmuvu8kmv07yr"]
+
+[ext_resource type="Texture2D" uid="uid://w0uvp12nvnj5" path="res://assets/Plants/PlantSunflower/sun.png" id="1_7swuq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_446cb"]
+radius = 57.7235
+
+[node name="Sun" type="Node2D"]
+
+[node name="Sun" type="Sprite2D" parent="."]
+position = Vector2(709, 379)
+texture = ExtResource("1_7swuq")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(710, 379)
+shape = SubResource("CircleShape2D_446cb")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
