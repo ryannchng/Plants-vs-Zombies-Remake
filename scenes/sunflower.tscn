@@ -1,7 +1,7 @@
 [gd_scene load_steps=123 format=3 uid="uid://cuawxolf1whqd"]
 
 [ext_resource type="Texture2D" uid="uid://yn7fp70rr738" path="res://assets/Plants/PlantSunflower/idle/idle0001.png" id="1_c7cu1"]
-[ext_resource type="Script" path="res://scripts/sunflower.gd" id="1_xmw4d"]
+[ext_resource type="Script" uid="uid://cs6sipmgrxffj" path="res://scripts/sunflower.gd" id="1_xmw4d"]
 [ext_resource type="Texture2D" uid="uid://cd3frt0drdnoa" path="res://assets/Plants/PlantSunflower/idle/idle0002.png" id="2_0vjb6"]
 [ext_resource type="Texture2D" uid="uid://eb6rdgiuab33" path="res://assets/Plants/PlantSunflower/idle/idle0003.png" id="3_e0mk6"]
 [ext_resource type="Texture2D" uid="uid://crc8f3yp0vjfi" path="res://assets/Plants/PlantSunflower/idle/idle0004.png" id="4_oc0hl"]
@@ -126,10 +126,10 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_c7cu1")
+"texture": ExtResource("2_0vjb6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_0vjb6")
+"texture": ExtResource("1_c7cu1")
 }, {
 "duration": 1.0,
 "texture": ExtResource("3_e0mk6")
@@ -314,9 +314,6 @@ animations = [{
 "texture": ExtResource("61_u5mog")
 }, {
 "duration": 1.0,
-"texture": ExtResource("62_s6uy3")
-}, {
-"duration": 1.0,
 "texture": ExtResource("63_ryk0b")
 }, {
 "duration": 1.0,
@@ -416,6 +413,9 @@ animations = [{
 "texture": ExtResource("95_1jyl2")
 }, {
 "duration": 1.0,
+"texture": ExtResource("62_s6uy3")
+}, {
+"duration": 1.0,
 "texture": ExtResource("96_s7htk")
 }, {
 "duration": 1.0,
@@ -499,13 +499,10 @@ animations = [{
 script = ExtResource("1_xmw4d")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(469, 235)
+position = Vector2(466.55, 235)
 scale = Vector2(1, 0.967949)
 sprite_frames = SubResource("SpriteFrames_fmku1")
-animation = &"Produce"
-frame = 59
-frame_progress = 1.0
-offset = Vector2(0, -5)
+animation = &"Idle"
 
 [node name="SunProductionTimer" type="Timer" parent="."]
 
@@ -513,6 +510,7 @@ offset = Vector2(0, -5)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
 visible = false
+position = Vector2(469, 234)
 polygon = PackedVector2Array(-32, -36, -18, -42, -4, -46, 13, -41, 26, -34, 34, -22, 39, -10, 36, 3, 29, 13, 20, 20, 10, 24, 4, 38, 19, 46, 23, 53, 14, 55, 14, 59, 0, 61, -13, 60, -19, 56, -36, 56, -35, 48, -30, 41, -19, 39, -23, 34, -25, 28, -32, 17, -41, 6, -44, -10, -38, -24)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

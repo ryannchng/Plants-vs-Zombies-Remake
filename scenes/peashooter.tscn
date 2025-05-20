@@ -285,7 +285,7 @@ animations = []
 script = SubResource("GDScript_inlds")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-241, 8)
+position = Vector2(1, -2)
 sprite_frames = SubResource("SpriteFrames_o4qca")
 animation = &"Idle"
 frame = 2

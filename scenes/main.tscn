@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://bfhr3j6vjcd4b"]
+[gd_scene load_steps=3 format=3 uid="uid://bfhr3j6vjcd4b"]
 
 [ext_resource type="PackedScene" uid="uid://cuawxolf1whqd" path="res://scenes/sunflower.tscn" id="1_11x6w"]
+[ext_resource type="PackedScene" uid="uid://jvrt2vouvknr" path="res://scenes/lawn.tscn" id="2_0wfyh"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Sunflower" parent="." instance=ExtResource("1_11x6w")]
-position = Vector2(87, 51)
+position = Vector2(-1043, 122)
+
+[node name="Lawn" parent="." instance=ExtResource("2_0wfyh")]
+script = null

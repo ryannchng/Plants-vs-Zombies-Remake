@@ -11,12 +11,11 @@ radius = 57.7235
 position = Vector2(709, 379)
 texture = ExtResource("1_7swuq")
 
+[node name="Timer" type="Timer" parent="."]
+
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(710, 379)
+visible = false
+position = Vector2(709, 378)
 shape = SubResource("CircleShape2D_446cb")
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-
-[node name="Timer" type="Timer" parent="."]
