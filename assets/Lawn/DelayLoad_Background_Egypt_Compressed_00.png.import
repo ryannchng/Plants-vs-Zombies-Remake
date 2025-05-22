@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wf8je1g08k61"
-path="res://.godot/imported/produce0002.png-1cefa551dd9af5b505447f527174f4ac.ctex"
+uid="uid://bpjhwnke6ly1l"
+path="res://.godot/imported/DelayLoad_Background_Egypt_Compressed_00.png-9dc4ea43edfbc5a255446b1406ed73c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Plants/PlantSunflower/produce/produce0002.png"
-dest_files=["res://.godot/imported/produce0002.png-1cefa551dd9af5b505447f527174f4ac.ctex"]
+source_file="res://assets/Lawn/DelayLoad_Background_Egypt_Compressed_00.png"
+dest_files=["res://.godot/imported/DelayLoad_Background_Egypt_Compressed_00.png-9dc4ea43edfbc5a255446b1406ed73c7.ctex"]
 
 [params]
 

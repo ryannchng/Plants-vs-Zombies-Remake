@@ -1,4 +1,4 @@
-extends Node2D
+extends CharacterBody2D
 
 const sun_resource = preload("res://scenes/sun.tscn")
 

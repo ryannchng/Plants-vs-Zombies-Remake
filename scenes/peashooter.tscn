@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://bi8lsvvcwv2dk"]
+[gd_scene load_steps=67 format=3 uid="uid://bi8lsvvcwv2dk"]
 
 [ext_resource type="Texture2D" uid="uid://cbp0bjy1xq16l" path="res://assets/Plants/PlantPeashooter/attack/attack0001.png" id="1_q14ui"]
 [ext_resource type="Texture2D" uid="uid://7vxtc8bxn3tk" path="res://assets/Plants/PlantPeashooter/attack/attack0002.png" id="2_gapcm"]
@@ -278,22 +278,28 @@ animations = [{
 "speed": 30.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gblii"]
+size = Vector2(106.5, 105)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_tg452"]
 animations = []
 
-[node name="Peashooter" type="Node2D"]
+[node name="Peashooter" type="CharacterBody2D"]
 script = SubResource("GDScript_inlds")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -2)
 sprite_frames = SubResource("SpriteFrames_o4qca")
-animation = &"Idle"
-frame = 2
-frame_progress = 0.0411699
+animation = &"Attack"
+frame_progress = 0.0641113
 
 [node name="ShootingTimer" type="Timer" parent="."]
 
 [node name="Muzzle" type="Marker2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.25, -1.5)
+shape = SubResource("RectangleShape2D_gblii")
 
 [node name="Pea" type="CharacterBody2D" parent="."]
 
